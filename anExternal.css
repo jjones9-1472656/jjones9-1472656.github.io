@@ -1,0 +1,51 @@
+p.one {
+	font-family: arial;
+	font-size: 20px;
+}
+
+p.two {
+	font-family: bradley hand;
+	font-size: 20px;
+}
+
+img.one {
+	height: 50px;
+	width: 50px;
+	margin: 20px;
+}
+
+img.two {
+	height: 50px;
+	width: 50px;
+	border-radius: 10px;
+    float: right;
+    margin: 0px 0px 10px 10px;
+}
+
+div.one {
+
+	margin: auto;
+}
+
+h1.one {
+	position: absolute;
+    top: 20px;
+}
+
+div.one {
+    width: 1060px;
+    height:auto;
+    margin: auto;
+    text-align:center;
+    position:relative;
+    }
+h1.one {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    color:#FFFFFF;
+    height:100px;
+    }
