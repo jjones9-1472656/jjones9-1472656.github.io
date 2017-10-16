@@ -1,8 +1,12 @@
+/*Added underline*/
+/*Added purple shadow*/
 #Header h1 {
 	font-size: 60px;
 	font-family: Passion One;
 	color: #ffbc00;
 	font-weight: bold;
+	text-decoration: underline;
+	text-shadow: 3px 2px purple;
 }
 
 p {
@@ -31,39 +35,33 @@ a {
 	font-weight: bold;
 	font-size: 24px;
 }
-
-#Header {
-	border: solid 8px black;
-	width: 500px;
+/*Made the code less redundant*/
+/*Changed the border style to grooved to give it a 3D look*/
+.redundant {
+	border: groove 8px black;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
 	text-align: center;
 }
 
+#Header {
+	width: 500px;
+}
+
 #LeftNav {
-	border: solid 8px black;
 	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10px;
 	float: left;
-	text-align: center;
 	padding-bottom: 8px;
 }
 
 #Content {
-	border: solid 8px black;
 	width: 700px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10px;
-	text-align: center;
 	padding: 15px;
 }
 
 #Footer {
-	border: solid 8px black;
+	border: groove 8px black;
 	text-align: center;
 	
 }
